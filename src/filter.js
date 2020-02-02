@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
 import './style.css';
 import Scontainer from './scontainer.js';
 export default class Filter extends Component {
