@@ -7,7 +7,7 @@ export default class Navbar extends Component {
     return (
       <div className = "Nav">
           <a href=" " className = "logo">
-          <img src = {logo}></img>
+          <img src = {logo} className = "img_1"></img>
           </a>
           <div></div>
           <div className="center"><a href= "" className="center">Услуги</a></div>

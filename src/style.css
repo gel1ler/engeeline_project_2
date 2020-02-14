@@ -13,24 +13,11 @@ h1, p {
   font-family: 'Roboto',sans-serif;  
  
 }
-/*@media (min-width: 400px) { 
-  .center {
-    color: pink;
-  }
-  .Nav {
-    grid-template-columns: 1fr;
-  }
+.logo{
+  max-width: 200px;
+  align-items: center;
+  display: flex;
 }
-@media (min-width: 720px) { 
-  .center {
-    color: black;
-  }
-}
-@media (min-width: 12450px) { 
-  .center {
-    color: blue;
-  }
-}*/
 .Nav {
   background:rgba(255,255,255,1);
   height:70px;
@@ -38,9 +25,9 @@ h1, p {
   width: 100%;
   position: fixed;
   display: grid;
-  grid-template-columns: 50px 1fr min-content min-content min-content;
-  grid-gap: 38px 38px;
-  margin-right: 40px;
+  grid-template-columns: min-content 1fr min-content min-content min-content;
+  grid-gap: 38px;
+  top: 0px;
 }
 .services {
   width:100%;
@@ -53,22 +40,15 @@ h1, p {
   height:450px;
   text-align: center;
   background: red;
-  /*animation-duration: 3s;
-  animation-name: slide;*/
-}
-/*@keyframes slide{
-    from{
-      left:-360px;
-    }
-    to{
-      left:0px;
-    }
-}*/
+ }
 .t-container {
   width: 1200;
   height: 400px;
   display: grid;
   grid-template-columns: 20px 360px 40px 360px 40px 360px 20px;
- 
   }
+.img_1{
+  max-width: 200px;
+  margin: 0 auto;
+}
 

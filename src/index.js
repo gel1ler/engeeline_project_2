@@ -15,7 +15,6 @@ class App extends Component {
     return (
       <div>
        <Navbar /*buttonClick={this.onButtonClick}*//>
-       <Filter /*className ="content" show={this.state.showSideMenu}*//>
       </div>
     );
   }
