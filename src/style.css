@@ -35,20 +35,12 @@ h1, p {
   background:rgba(255,255,255,1);
   height:70px;
   z-index: 990;
-  position: fixed;
   width: 100%;
-  top:0px;
-  right:0px;
+  position: fixed;
   display: grid;
-  grid-template-columns: min-content 1fr min-content min-content min-content;
+  grid-template-columns: 50px 1fr min-content min-content min-content;
   grid-gap: 38px 38px;
   margin-right: 40px;
-}
-.logo {
-    max-width: 200px;
-    width: 200px;
-    height: auto;
-    display: block;
 }
 .services {
   width:100%;
