@@ -17,6 +17,7 @@ h1, p {
   max-width: 200px;
   align-items: center;
   display: flex;
+  justify-content:center;
 }
 .Nav {
   background:rgba(255,255,255,1);
@@ -27,7 +28,9 @@ h1, p {
   display: grid;
   grid-template-columns: min-content 1fr min-content min-content min-content;
   grid-gap: 38px;
-  top: 0px;
+  top: 0;
+  left:0;
+  padding-right:40px;
 }
 .services {
   width:100%;
