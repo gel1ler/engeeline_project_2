@@ -25,8 +25,6 @@
   position: fixed;
   top: 0;
   left:0;
-  padding-top: 15px;
-  padding-bottom: 15px;
 }
 .services {
   width:100%;
@@ -65,4 +63,13 @@ margin:20px 40px 50px 40px;
 }
 body {
   overflow-y:scroll;
+}
+.Foot{
+  background-color: #171717;
+  height:174px;
+  z-index: 990;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left:0;
 }
