@@ -61,15 +61,31 @@ grid-template-columns: min-content 1fr min-content min-content min-content;
 grid-gap: 38px;
 margin:20px 40px 50px 40px;
 }
-body {
+/*body {
   overflow-y:scroll;
-}
+}*/
 .Foot{
   background-color: #171717;
   height:174px;
   z-index: 990;
   width: 100%;
-  position: absolute;
+  position: fixed;
   bottom: 0;
-  left:0;
+}
+.f_cont {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.f_serv {
+  display:grid;
+  grid-template-columns: 90px 44px 65px;
+  grid-template-rows: 17px;
+  grid-gap:30px ;
+}
+.f_href {
+  text-decoration: none;
+  color:white;
+  font-size: 14px;
+  font-weight: 600;
 }
