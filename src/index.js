@@ -16,6 +16,7 @@ class App extends Component {
     return (
       <div>
        <Navbar /*buttonClick={this.onButtonClick}*//>
+       <Navbar/>
        <Filter/>
        <Footer/>
       </div>

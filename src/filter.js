@@ -10,6 +10,8 @@ export default class Filter extends Component {
           <Scontainer /*show={show}*//>
           <Scontainer/>
           <Scontainer/>
+          <Scontainer/>
+          <Scontainer/>
           </div>
       </div>
     );
